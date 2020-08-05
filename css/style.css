@@ -1,0 +1,243 @@
+/* Table of Contents
+---------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+--------------------------------------- */
+
+/* General Content 
+---------------------------------------*/
+.main
+{
+    padding-top:3%;
+}
+
+.row
+{
+    padding: 2% 0;
+}
+
+.red
+{
+    background-color:#FF4136;
+}
+
+.redder
+{
+    background-color:#d63d38;
+}
+
+/* Typography 
+---------------------------------------*/
+body
+{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2em;
+    color: #000;    
+    
+}
+
+h2
+{
+    font-family: 'Titillium Web', cursive;
+    font-size: 3em;
+}
+
+h2.opening
+{
+    text-align:center;
+}
+
+h2.captionTitle
+{
+    text-align:center;
+    font-size: 1.67em;
+}
+
+p.caption
+{
+    font-size: 1em;
+}
+
+h2.bio
+{
+    color:#8b0000;
+    margin:.33em;
+}
+
+p.bio
+{
+    color:#000;
+    margin:1.67em;
+}
+
+a.resume
+{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+a.resume:hover
+{
+    color:#AAAAAA;
+}
+
+a.resume:active
+{
+    color:#000000;
+}
+
+ul.contact
+{
+    margin:1.67em;
+    list-style-type: square;
+}
+
+ul.contact li
+{
+    margin:0;
+}
+
+
+/* Header & Navigation 
+---------------------------------------*/
+header.main_nav
+{
+    padding:1% 0;
+    display:block;
+}
+
+.logo
+{
+    margin: 5% auto;
+    text-align:center;
+}
+
+.logo a
+{
+    font-size: 3em;
+    color: #111111;
+    text-decoration: none;
+    border: 3px solid #111111;
+    text-transform: uppercase;
+    padding:2px 10px 0 10px;
+    margin: 0;
+}
+
+.logo a:hover{
+    background-color: #111111;
+    color:#FF4136;
+    content:'R G K';
+}
+
+/* Images & Media
+---------------------------------------*/
+img
+{
+    max-width:100%;
+}
+
+img.avatar
+{
+    border-radius: 400px;
+    border: 5px solid #111111;
+    min-width:100%;
+}
+
+
+/* Footer 
+---------------------------------------*/
+ul.social
+{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align:center;
+}
+
+ul.social li
+{
+    font-size: 3em;
+    display: inline;
+    padding: 0 2%;
+}
+
+ul.social li a
+{
+    color:#666;
+}
+
+ul.social li.facebook a:hover
+{
+    color: rgb(59, 89, 152);
+}
+
+ul.social li.twitter a:hover
+{
+    color: rgb(0, 172, 237);
+}
+
+ul.social li.instagram a:hover
+{
+    color: rgb(233, 89, 80);
+}
+
+ul.social li.linkedin a:hover
+{
+    color: rgb(0, 123, 182);
+}
+
+ul.social li.github a:hover
+{
+    color: #333;
+}
+
+ul.social li.wordpress a:hover
+{
+    color: #21759b;
+}
+
+ul.social li.resume a:hover
+{
+    color: #f00;
+}
+
+div.doc
+{
+    background-color:#FF4136;
+}
+
+p.documentation
+{
+    
+    text-align:center;
+    color:#000;
+    font-size:1em;
+}
+
+p.copyright
+{
+    text-align:center;
+    color: #999;
+    font-size: 1em;
+}
+
+/* Media Queries 
+---------------------------------------*/
+/* Larger than mobile */
+@media (max-width: 600px)
+{
+    h2.opening{font-size: 2em;}
+    .logo a{font-size: 2em;}
+    .main{padding-top:15%;}
+    .portfolio img{margin-bottom:10%;}
+    img.avatar{margin-top:20%;}
+    h2.captionTitle{font-size:1em;}
+    p.caption{font-size:.67em;}
+    h2.bio{font-size:2.5em; margin:0.67em;}
+    p.bio{font-size: 1.25em; color:#8b0000;}
+    ul.social li a{font-size: .75em;}
+}
