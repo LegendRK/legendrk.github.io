@@ -23,4 +23,8 @@ function fadeInElement() {
     }
 }
 
+Fancybox.bind('[data-fancybox]', {
+  //
+});
+
 export { init };

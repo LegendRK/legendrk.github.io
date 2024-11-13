@@ -24,8 +24,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href="css/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.6.0-web/css/fontawesome.css"/>
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.6.0-web/css/regular.css"/>
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.6.0-web/css/brands.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -51,16 +53,25 @@
             <div class="row">
                 <h2 class="opening">Hi.</h2>
                 <h2 class="opening">My name is Rohit Kaushik.</h2>
-                <h2 class="opening">I love making games.</h2>
+                <h2 class="opening">I make games.</h2>
             </div>
         </div> <!-- Opener -->
 
-        <div id="experience" class="fade">
+        <div class="fade experience">
             <h3>Work Experience</h3>
-            <div class="row">
+            <div class="row fade">
+                <div class="fade company-logos">
+                    <img class="company-logo" src="images/rippleeffect.jpg" alt="Ripple Effect" />
+                    <h2 class="captionTitle">Technical Designer II</h2>
+                    <h2 class="captionTitle">March 2021 - Current</h2>
+                </div>
+            </div>
+        </div>
+        <div class="fade experience">
+            <div class="row fade">
                 <div class="one-half column fade company-logos">
                     <img class="company-logo" src="images/dice.png" alt="DICE LA" />
-                    <h2 class="captionTitle">Technical Designer</h2>
+                    <h2 class="captionTitle">Technical Design Intern</h2>
                     <h2 class="captionTitle">Fall 2019</h2>
                 </div>
                 <div class="one-half column fade company-logos">
@@ -71,8 +82,23 @@
             </div>
         </div> <!-- Experience -->
 
-        <div id="folio">
-            <h3 class="fade">Portfolio</h3>
+        <div class="folio">
+            <h3 class="fade">Professional Portfolio</h3>
+            <div class="row fade">
+                <div class="portfolio">
+                    <img src="images/2042.jpg" alt="Battlefield 2042" />
+                    <h2 class="captionTitle">Battlefield 2042</h2>
+                    <p class="caption">
+                        Primarily worked on Battlefield Portal sub-mode and helped work on the Battlefield Builder web tool. Created custom scripting entities for the Rules Editor,
+                        which allowed users to create custom Battlefield experiences using 2042 as a sandbox. This system was also utilized internally to build the live service
+                        experiences of the game.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- Professional Portfolio -->
+        
+        <div class="folio">
+            <h3 class="fade">Personal Portfolio</h3>
             <div class="row fade">
                 <div class="four columns portfolio">
                     <a data-fancybox="transimian_gallery"
@@ -224,8 +250,7 @@
                     </p>
                 </div> <!-- Where's Alaska? -->
             </div> <!-- 3rd Row -->
-
-        </div> <!-- Portfolio -->
+        </div> <!-- Personal Portfolio -->
 
     </div><!-- Container -->
 
@@ -238,15 +263,15 @@
                 <div class="eight columns">
                     <h2 class="bio">About Rohit Kaushik</h2>
                     <p class="bio">
-                        Hi there! I am a recent graduate from Rochester
-                        Institute of Technology, having recieved a Bachelors of Science in Game Design & Development and
+                        Hi there! I am a Technical Designer currently working at Ripple Effect Studios on Battlefield.
+                        I graduated from Rochester Institute of Technology, having recieved a Bachelors of Science in Game Design & Development and
 						a minor in Creative Writing.
                         I am very passionate about game design. I strive to create fun and lasting experiences for players
 						and hope to inspire people through my games. 
                         I enjoy programming, and have experience in developing with many industry standard
                         languages, such as C/C++, C#, Python, etc.
-                        If you are interested in hiring me, please feel free to reach out! You can find my resume <a class="resume"
-                        href="RKResume.pdf">here</a>.
+                        I have also worked with AAA game engines and have experience in Frostbite, Unreal, and Unity. 
+                        While I am currently not looking for employment opportunities, please feel free to reach out!
                     </p>
                 </div>
             </div>
@@ -262,7 +287,7 @@
                     <p class="bio">You can contact me through the following means:</p>
                     <ul class="contact">
                         <li>Email: rohitgkaushik [at] gmail.com</li>
-                        <li>Based in: Pasadena, CA</li>
+                        <li>Based in: San Dimas, CA</li>
                     </ul>
                 </div>
             </div><!-- Contact Section -->
@@ -274,25 +299,25 @@
             <div class="row twelve columns">
                 <ul class="social">
                     <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100006795255277"><i
-                                class="fa fa-facebook-square fa-lg"></i></a></li>
-                    <li class="twitter"><a href="https://twitter.com/InfernRo"><i
-                                class="fa fa-twitter-square fa-lg"></i></a></li>
+                                class="fab fa-facebook-square"></i></a></li>
+                    <li class="bluesky"><a href="https://bsky.app/profile/rocruit.me"><i
+                                class="fab fa-bluesky"></i></a></li>
                     <li class="instagram"><a href="https://www.instagram.com/rgkaushik/"><i
-                                class="fa fa-instagram fa-lg"></i></a></li>
+                                class="fab fa-instagram"></i></a></li>
                     <li class="linkedin"><a href="https://www.linkedin.com/in/rohit-kaushik/"><i
-                                class="fa fa-linkedin-square fa-lg"></i></a></li>
+                                class="fab fa-linkedin"></i></a></li>
                     <li class="github"><a href="https://www.github.com/LegendRK/"><i
-                                class="fa fa-github-square fa-lg"></i></a></li>
-                    <li class="resume"><a href="RKResume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                                class="fab fa-github-square"></i></a></li>
+                    <li class="resume"><a href="RKResume.pdf"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
             <div class="row twelve columns">
-                <p class="documentation">This website was made using Skeleton 2.0.4, FancyBox3, Font Awesome 4.7.0, and
-                    jQuery 3.2.1.</p>
+                <p class="documentation">This website was made using Skeleton 2.0.4, FancyBox5.0, Font Awesome 4.7.0, and
+                    jQuery 3.7.1.</p>
             </div>
             <div class="row twelve columns">
-                <p class="copyright">&copy; 2020 Rohit Kaushik. All Rights Reserved.</p>
+                <p class="copyright">&copy; 2024 Rohit Kaushik. All Rights Reserved.</p>
             </div>
         </div>
     </footer> <!-- Social Media / Copyright-->
@@ -302,8 +327,8 @@
 
     <!-- JS
     -------------------------------------------------- -->
-    <script src="jQuery/jquery-3.2.1.min.js"></script>
-    <script src="css/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="jQuery/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="scripts/loader.js" type="module"></script>
 </body>
 

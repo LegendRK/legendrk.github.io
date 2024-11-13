@@ -22,16 +22,16 @@
 
 #intro
 {
-    margin-top:15%;
-    margin-bottom:25%;
+    margin-top:25%;
+    margin-bottom:55%;
 }
 
-#experience{
+.experience{
     margin-bottom:10%;
 }
 
-#folio{
-    margin-bottom:25%;
+.folio{
+    margin-bottom:15%;
 }
 
 .red
@@ -211,7 +211,7 @@ ul.social li.facebook a:hover
     color: rgb(59, 89, 152);
 }
 
-ul.social li.twitter a:hover
+ul.social li.bluesky a:hover
 {
     color: rgb(0, 172, 237);
 }
